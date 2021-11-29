@@ -1,0 +1,19 @@
+.artist__img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  height: 200px;
+  margin: 0 auto;
+  width: 200px;
+}
+
+.artist__img--elf {
+  background-image: url(../../img/crew/elf.png);
+}
+.artist__img--santa {
+  background-image: url(../../img/crew/santa.png);
+}
+.artist__img--reindeer {
+  background-image: url(../../img/crew/reindeer.png);
+}
