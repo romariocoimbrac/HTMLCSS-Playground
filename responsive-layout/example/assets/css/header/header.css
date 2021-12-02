@@ -1,0 +1,14 @@
+.header {
+  align-items: center;
+  background-color: var(--grey-dark);
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 1024px) {
+  .header {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

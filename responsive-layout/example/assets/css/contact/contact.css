@@ -1,0 +1,8 @@
+.contact {
+  background-color: var(--grey-light);
+  color: var(--white);
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin-top: 1rem;
+  text-align: center;
+}

@@ -1,0 +1,36 @@
+:root {
+  --blue-light: #f7f4f4;
+  --blue-dark: #0ea2f6;
+  --grey-light: #3d3a50;
+  --grey-dark: #303041;
+  --white: #fff;
+
+  --passion: "Passion One", cursive;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  padding-left: 6%;
+  padding-right: 6%;
+}
+
+.button {
+  border: 1px solid var(--white);
+  border-radius: 5px;
+  box-sizing: border-box;
+  display: block;
+  margin: 0 auto;
+  max-width: 350px;
+  padding: 0.5rem 1rem;
+  text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    padding-left: calc((100% - 940px) / 2);
+    padding-right: calc((100% - 940px) / 2);
+  }
+}

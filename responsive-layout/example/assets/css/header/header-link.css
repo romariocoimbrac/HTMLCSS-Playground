@@ -1,0 +1,17 @@
+.header__link {
+  display: inline-block;
+  font-size: 1rem;
+  margin: 0 0.7rem 1.25rem 0.7rem;
+}
+
+.header__link:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 1024px) {
+  .header__link {
+    font-size: 1.3rem;
+    margin: 1rem 2rem;
+  }
+}

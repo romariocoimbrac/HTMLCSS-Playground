@@ -1,0 +1,20 @@
+.portfolio__img {
+  margin-bottom: 1rem;
+  width: 90vw;
+}
+
+@media screen and (min-width: 768px) {
+  .portfolio__img {
+    margin: 1rem;
+    max-height: 300px;
+    max-width: 250px;
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .portfolio__img {
+    max-height: 450px;
+    max-width: 350px;
+  }
+}

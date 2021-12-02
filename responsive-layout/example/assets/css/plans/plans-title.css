@@ -1,0 +1,8 @@
+.plans__title {
+  color: var(--grey-dark);
+  font-family: var(--passion);
+  font-size: 2.5rem;
+  margin-bottom: 1.25rem;
+  text-align: center;
+  text-transform: uppercase;
+}

@@ -1,0 +1,19 @@
+.contact__title {
+  font-family: var(--passion);
+  font-size: 2rem;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .contact__title {
+    font-size: 4rem;
+    padding: 1.5rem 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .contact__title {
+    font-size: 5rem;
+    padding: 2rem 0;
+  }
+}

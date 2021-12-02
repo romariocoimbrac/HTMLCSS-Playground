@@ -1,0 +1,19 @@
+.portfolio__title {
+  font-family: var(--passion);
+  font-size: 2rem;
+  padding: 1rem 0;
+}
+
+@media screen and (min-width: 768px) {
+  .portfolio__title {
+    font-size: 4rem;
+    padding: 1.5rem 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .portfolio__title {
+    font-size: 5rem;
+    padding: 2rem 0;
+  }
+}
