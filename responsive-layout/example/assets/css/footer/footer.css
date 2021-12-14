@@ -9,14 +9,14 @@
 
 @media screen and (min-width: 768px) {
   .footer {
-    font-size: 1rem;
+    font-size: 0.9rem;
     padding: 1.5rem 1rem;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .footer {
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding: 1.5rem 1.5rem;
   }
 }
